@@ -1,0 +1,139 @@
+@charset "utf-08";
+
+/* adding style to main title */
+
+.main-title{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    width: 400px;
+    padding: 10px 0 0 0;
+    margin: 10px;
+  }
+ 
+/* adding style to the form */
+
+label {
+    width: 30%;
+    text-align: left;
+  }
+  
+  label+input {
+    width: 30%;   
+    margin: 0 30% 0 4%;
+  }
+
+body{
+    margin:0;
+}
+
+/* adding style to the form buttons */
+
+.add{
+    background-color: #ADC4CE;
+}
+
+.reset{
+    background-color: #EEE0C9;
+}
+
+/* navegation bar */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #96B6C5; 
+    padding: 10px;
+}
+
+.logo-container img {
+    max-height: 125px; 
+    margin-left: 20px; 
+}
+
+.container-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    text-decoration: none;
+    color: white; 
+    margin-right: 20px; 
+}
+
+/* adding style to the table with the data */
+
+.row{
+    margin-top:50px;
+    margin-bottom: 300px;
+}
+
+.row td:hover{
+    color: brown;
+}
+
+/* footer section */
+footer {
+    background-color:#F1F0E8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.comment p {
+    width: 250px;
+    height: 30px;
+}
+
+
+.footer-bottom p{
+    padding: 10px 0; 
+    margin-left: 20px;
+   
+}
+
+.center_div{
+    margin: 0 auto;
+    width:80%
+}
+
+.profile-form > p{
+ width: 150%;
+}
+
+
+.welcome >p{
+    max-width: 100%;
+   
+}
+
